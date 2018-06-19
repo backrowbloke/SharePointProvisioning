@@ -16,12 +16,6 @@ using System.Xml.Serialization;
 
 namespace SPR.Provisioning
 {
-    [AttributeUsage(AttributeTargets.Property,
-                Inherited = false,
-                AllowMultiple = false)]
-    internal sealed class OptionalAttribute : Attribute
-    {
-    }
 
     public enum WorkflowType
     {
@@ -36,54 +30,15 @@ namespace SPR.Provisioning
         ContentType,
         List
     }
-    public class WorkflowInfo
-    {
-        public string ID { get; set; }
-        public string Name { get; set; }
-        public string InstantiationUrl { get; set; }
-        public string AssociationData { get; set; }
-        public string BaseID { get; set; }
-        public string ListID { get; set; }
-        public string Scope { get; set; }
-        public WorkflowType Type { get; set; }
-        public string FilePath { get; set; }
-    }
-
-    public class ListWorkflows
-    {
-        public List<WorkflowInfo> Workflows { get; set; }
-    }
-
-    public class SiteWorkflows
-    {
-        public List<WorkflowInfo> Workflows { get; set; }
-    }
-
-    public class ContentTypeWorkflows
-    {
-        public List<WorkflowInfo> Workflows { get; set; }
-    }
-
-    public class WorkflowCollection
-    {
-        [Optional]
-        public ListWorkflows ListWorkflows { get; set; }
-        [Optional]
-        public SiteWorkflows SiteWorkflows { get; set; }
-        [Optional]
-        public ContentTypeWorkflows ContentTypeWorkflows { get; set; }
-    }
+    
 
     public class PnpNintex : IProvisioningExtensibilityHandler
     {
         private const string workflowProviderName = "Nintex";
-        private const string workflowFolderName = "NintexWorkflows";
+        
 
 
-        private void DownloadWorkflowFile(string workflowID, FileConnectorBase writer, Stream fileStream, WorkflowLevel workflowLevel)
-        {
-            writer.SaveFileStream(workflowID, workflowFolderName, fileStream);
-        }
+        
 
 
         public ProvisioningTemplate Extract(ClientContext ctx, ProvisioningTemplate template,
@@ -138,7 +93,7 @@ namespace SPR.Provisioning
                         wfInfo.Type = WorkflowType.SharePoint;
                     }
                     wfInfo.FilePath = wfAss.BaseId.ToString() + ".xml";
-                    //DownloadWorkflowFile(wfInfo.FilePath, creationInformation.FileConnector);
+                    //Helpers.DownloadWorkflowFile(wfInfo.FilePath, creationInformation.FileConnector);
                     wfInfoList.Add(wfInfo);
 
 
@@ -172,7 +127,7 @@ namespace SPR.Provisioning
                     wfInfo.Type = WorkflowType.SharePoint;
                 }
                 wfInfo.FilePath = wfAss.BaseId.ToString() + ".xml";
-                //DownloadWorkflowFile(wfInfo.FilePath, creationInformation.FileConnector);
+                //Helpers.DownloadWorkflowFile(wfInfo.FilePath, creationInformation.FileConnector);
 
                 wfInfoSite.Add(wfInfo);
             }
@@ -206,7 +161,7 @@ namespace SPR.Provisioning
                         wfInfo.Type = WorkflowType.SharePoint;
                     }
                     wfInfo.FilePath = wfAss.BaseId.ToString() + ".xml";
-                    //DownloadWorkflowFile(wfInfo.FilePath, creationInformation.FileConnector);
+                    //Helpers.DownloadWorkflowFile(wfInfo.FilePath, creationInformation.FileConnector);
                     wfInfoContentType.Add(wfInfo);
 
                 }

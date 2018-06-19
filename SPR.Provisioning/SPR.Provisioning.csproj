@@ -150,12 +150,95 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connected Services\NintexWorkflowService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers.cs" />
+    <Compile Include="Model.cs" />
     <Compile Include="NintexWorkflows.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.ConfiguredOutcome.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.ContentType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.Folder.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.ItemsPendingApproval.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.MessageBoxItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.NameInUseStatus.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.ProcessTaskResponseResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.PublishFromNWFNoOverwriteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.PublishFromNWFResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.PublishFromNWFSkipValidationNoOverwriteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.PublishFromNWFSkipValidationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.SaveFromNWFNoOverwriteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.SaveFromNWFResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.TaskStub.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.UserTask.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.WorkflowLog.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.WorkflowMetaData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\SPR.Provisioning.NintexWorkflowService.WorkflowTaskDetail.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\NintexWorkflowService\Workflow.wsdl" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\NintexWorkflowService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\NintexWorkflowService\Workflow.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\NintexWorkflowService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\NintexWorkflowService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\NintexWorkflowService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
