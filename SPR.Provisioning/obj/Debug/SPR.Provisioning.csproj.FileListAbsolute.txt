@@ -87,6 +87,5 @@ D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\ko\System.Spatial.resourc
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\ru\System.Spatial.resources.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\zh-Hans\System.Spatial.resources.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\zh-Hant\System.Spatial.resources.dll
-D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\obj\Debug\SPR.Provisioning.csprojResolveAssemblyReference.cache
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\obj\Debug\SPR.Provisioning.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\obj\Debug\SPR.Provisioning.pdb
