@@ -17,7 +17,6 @@ D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.Office.Client.T
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.Office.SharePoint.Tools.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.Online.SharePoint.Client.Tenant.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.ProjectServer.Client.dll
-D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.DocumentManagement.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.Publishing.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
