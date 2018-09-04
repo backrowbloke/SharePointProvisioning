@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.26.1805.1, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-9D0844455FBE4EA98B81EFF1143A3386">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-9D0844455FBE4EA98B81EFF1143A3386" Version="1" BaseSiteTemplate="STS#0" Scope="RootSite">
+      <pnp:Providers>
+        <pnp:Provider Enabled="true" HandlerType="SPR.Provisioning.PnpNintex, SPR.Provisioning, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0b6111688a847bb4">
+          <pnp:Configuration>
+            <WorkflowCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sharepointresource.co.uk/workflows">
+              <ListWorkflows>
+                <Workflows>
+                  <WorkflowInfo>
+                    <ID>5b54f17b-3a73-4f81-ace7-6d56f4e9c0fe</ID>
+                    <Name>LIST workflow</Name>
+                    <InstantiationUrl>_layouts/15/NintexWorkflow/StartWorkflow.aspx</InstantiationUrl>
+                    <AssociationData>&lt;dfs:myFields xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;dfs:queryFields /&gt;&lt;dfs:dataFields&gt;&lt;d:SharePointListItem_RW&gt;&lt;/d:SharePointListItem_RW&gt;&lt;/dfs:dataFields&gt;&lt;/dfs:myFields&gt;</AssociationData>
+                    <BaseID>000ee2c1-8608-448c-bf95-65d4969915b9</BaseID>
+                    <ListName>Nintex</ListName>
+                    <Scope>List</Scope>
+                    <Type>Nintex</Type>
+                    <FilePath>000ee2c1-8608-448c-bf95-65d4969915b9.nwf</FilePath>
+                  </WorkflowInfo>
+                  <WorkflowInfo>
+                    <ID>732e8360-43bc-4145-8a0e-b7b95c9d768f</ID>
+                    <Name>List workflow 2</Name>
+                    <InstantiationUrl>_layouts/15/NintexWorkflow/StartWorkflow.aspx</InstantiationUrl>
+                    <AssociationData>&lt;dfs:myFields xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;dfs:queryFields /&gt;&lt;dfs:dataFields&gt;&lt;d:SharePointListItem_RW&gt;&lt;/d:SharePointListItem_RW&gt;&lt;/dfs:dataFields&gt;&lt;/dfs:myFields&gt;</AssociationData>
+                    <BaseID>9d29bfec-7acf-45b1-a06d-640a66e50f96</BaseID>
+                    <ListName>Nintex</ListName>
+                    <Scope>List</Scope>
+                    <Type>Nintex</Type>
+                    <FilePath>9d29bfec-7acf-45b1-a06d-640a66e50f96.nwf</FilePath>
+                  </WorkflowInfo>
+                  <WorkflowInfo>
+                    <ID>24db61d5-cfb8-47f4-a37a-dff61be8e496</ID>
+                    <Name>LIST workflow 1</Name>
+                    <InstantiationUrl>_layouts/15/NintexWorkflow/StartWorkflow.aspx</InstantiationUrl>
+                    <AssociationData>&lt;dfs:myFields xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;dfs:queryFields /&gt;&lt;dfs:dataFields&gt;&lt;d:SharePointListItem_RW&gt;&lt;/d:SharePointListItem_RW&gt;&lt;/dfs:dataFields&gt;&lt;/dfs:myFields&gt;</AssociationData>
+                    <BaseID>771652c6-9f2e-4d68-b812-57c8f03e964a</BaseID>
+                    <ListName>Nintex</ListName>
+                    <Scope>List</Scope>
+                    <Type>Nintex</Type>
+                    <FilePath>771652c6-9f2e-4d68-b812-57c8f03e964a.nwf</FilePath>
+                  </WorkflowInfo>
+                  <WorkflowInfo>
+                    <ID>6fb520ba-a861-4e8d-92da-a17af295bf22</ID>
+                    <Name>SITE Workflow</Name>
+                    <InstantiationUrl>_layouts/15/NintexWorkflow/StartWorkflow.aspx</InstantiationUrl>
+                    <AssociationData>&lt;dfs:myFields xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;dfs:queryFields /&gt;&lt;dfs:dataFields&gt;&lt;d:SharePointListItem_RW&gt;&lt;/d:SharePointListItem_RW&gt;&lt;/dfs:dataFields&gt;&lt;/dfs:myFields&gt;</AssociationData>
+                    <BaseID>3e417fe3-dc36-442c-8cca-57cb6a4c509d</BaseID>
+                    <Scope>Site</Scope>
+                    <Type>Nintex</Type>
+                    <FilePath>3e417fe3-dc36-442c-8cca-57cb6a4c509d.nwf</FilePath>
+                  </WorkflowInfo>
+                </Workflows>
+              </ListWorkflows>
+              <SiteWorkflows>
+                <Workflows>
+                  <WorkflowInfo>
+                    <ID>6fb520ba-a861-4e8d-92da-a17af295bf22</ID>
+                    <Name>SITE Workflow</Name>
+                    <InstantiationUrl>_layouts/15/NintexWorkflow/StartWorkflow.aspx</InstantiationUrl>
+                    <AssociationData>&lt;dfs:myFields xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;dfs:queryFields /&gt;&lt;dfs:dataFields&gt;&lt;d:SharePointListItem_RW&gt;&lt;/d:SharePointListItem_RW&gt;&lt;/dfs:dataFields&gt;&lt;/dfs:myFields&gt;</AssociationData>
+                    <BaseID>3e417fe3-dc36-442c-8cca-57cb6a4c509d</BaseID>
+                    <Scope>Site</Scope>
+                    <Type>Nintex</Type>
+                    <FilePath>3e417fe3-dc36-442c-8cca-57cb6a4c509d.nwf</FilePath>
+                  </WorkflowInfo>
+                </Workflows>
+              </SiteWorkflows>
+              <ContentTypeWorkflows>
+                <Workflows>
+                  <WorkflowInfo>
+                    <ID>641b4c3c-356b-4f66-a784-2f2b32a4a251</ID>
+                    <Name>WF from Site Collection Reusable Workflow</Name>
+                    <InstantiationUrl>_layouts/15/NintexWorkflow/StartWorkflow.aspx</InstantiationUrl>
+                    <AssociationData>&lt;dfs:myFields xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;dfs:queryFields /&gt;&lt;dfs:dataFields&gt;&lt;d:SharePointListItem_RW&gt;&lt;/d:SharePointListItem_RW&gt;&lt;/dfs:dataFields&gt;&lt;/dfs:myFields&gt;</AssociationData>
+                    <BaseID>cc4302c0-7849-45e8-9db1-a03ca0dca5b7</BaseID>
+                    <Scope>ContentType</Scope>
+                    <Type>Nintex</Type>
+                    <FilePath>cc4302c0-7849-45e8-9db1-a03ca0dca5b7.nwf</FilePath>
+                  </WorkflowInfo>
+                </Workflows>
+              </ContentTypeWorkflows>
+            </WorkflowCollection>
+          </pnp:Configuration>
+        </pnp:Provider>
+      </pnp:Providers>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

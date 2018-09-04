@@ -17,7 +17,6 @@ D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.Office.Client.T
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.Office.SharePoint.Tools.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.Online.SharePoint.Client.Tenant.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.ProjectServer.Client.dll
-D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.DocumentManagement.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.Publishing.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
@@ -87,6 +86,5 @@ D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\ko\System.Spatial.resourc
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\ru\System.Spatial.resources.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\zh-Hans\System.Spatial.resources.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\bin\Debug\zh-Hant\System.Spatial.resources.dll
-D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\obj\Debug\SPR.Provisioning.csprojResolveAssemblyReference.cache
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\obj\Debug\SPR.Provisioning.dll
 D:\TFS_SPR\SPR.Provisioning\SPR.Provisioning\obj\Debug\SPR.Provisioning.pdb

@@ -1,0 +1,5 @@
+D:\TFS_SPR\SPR.Provisioning\SPR.Nintex\bin\Debug\SPR.Nintex.dll.config
+D:\TFS_SPR\SPR.Provisioning\SPR.Nintex\bin\Debug\SPR.Nintex.dll
+D:\TFS_SPR\SPR.Provisioning\SPR.Nintex\bin\Debug\SPR.Nintex.pdb
+D:\TFS_SPR\SPR.Provisioning\SPR.Nintex\obj\Debug\SPR.Nintex.dll
+D:\TFS_SPR\SPR.Provisioning\SPR.Nintex\obj\Debug\SPR.Nintex.pdb
