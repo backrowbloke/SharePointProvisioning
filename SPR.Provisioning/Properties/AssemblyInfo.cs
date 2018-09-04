@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SPR.Provisioning")]
+[assembly: AssemblyTitle("BabcockProvisioning")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SPR.Provisioning")]
+[assembly: AssemblyProduct("BabcockProvisioning")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1ecfb4db-ecf1-4b19-b029-91f345250efb")]
+[assembly: Guid("840005ec-f4df-468d-bd6c-da75033218cb")]
 
 // Version information for an assembly consists of the following four values:
 //

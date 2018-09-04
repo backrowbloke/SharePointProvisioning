@@ -18,7 +18,16 @@ namespace SPR.Provisioning
 
         public void DownloadWorkflowFile(string workflowID, FileConnectorBase writer, Stream fileStream, WorkflowLevel workflowLevel)
         {
-            writer.SaveFileStream(workflowID, workflowFolderName, fileStream);
+            writer.SaveFileStream(workflowID + ".xml", workflowFolderName, fileStream);
+        }
+        public string ReadWorkflowFile(string fileName, FileConnectorBase fileReader)
+        {
+
+            //FileSystemConnector connector = new FileSystemConnector(null,workflowFolderName);
+
+            //string fileContents = connector.GetFile(fileName);
+            string fileContents = fileReader.GetFile(fileName);
+            return fileContents;
         }
     }
 }
